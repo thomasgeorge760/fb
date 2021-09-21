@@ -1,0 +1,479 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    overflow-x: hidden;
+}
+body{
+    background-color: #f0f2f5;
+}
+
+.container{
+    
+    display: flex;
+    flex-direction: column;
+    
+}
+
+
+.navbar{
+    background-color: white;
+    width: 100vw;
+    height: 6vh;
+    position: fixed;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    box-shadow: 0px 0px 4px rgb(124, 122, 122);
+    z-index: 2;
+
+    
+}
+
+.navleft{
+    width: 25vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    background-color: inherit;
+    align-items: center;
+
+}
+
+.navleft i{
+    color: blue;
+    font-size: 4.5vh;
+    margin-left: 1vw;
+    margin-right: 1vw;
+}
+
+.navleft input{
+    width: 12vw;
+    height: 4.5vh;
+    border: none;
+    border-bottom-right-radius: 2vh;
+    border-top-right-radius: 2vh;
+    
+    background-color: rgb(212, 212, 216);
+    font-size: 1.5vh;
+}
+
+.navleftsearch{
+    background-color: rgb(212, 212, 216);
+    height: 4.5vh;
+    width: 13vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    border-radius: 2vh;
+    
+}
+
+.navleftsearch i{
+    
+   
+    background-color: inherit;
+    color: black;
+    font-size: 2vh;
+   
+}
+
+
+
+
+.navmiddle{
+    width: 48vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: inherit;
+}
+
+.navmiddle i{
+    width: 3vw;
+    height: 4vh;
+    color: rgb(110, 110, 114);
+    font-size: 2.5vh;
+    align-self: center;
+    background-color: inherit;
+}
+
+#home{
+    color: blue;
+}
+
+
+
+
+
+.navright{
+    width: 25vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+
+    background-color: inherit;
+}
+.navrightlist{
+    width: 15vw;
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-right: 2vw;
+    
+}
+.navrightlist li{
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.navrightlist li img{
+    width: 2vw;
+    height: 2vw;
+    border-radius: 50%;
+}
+
+
+
+
+.mainbody{
+    width: 100vw;
+    height: 500vh;
+    display: flex;
+    flex-direction: row;
+}
+
+
+
+.left{
+    width: 20vw;
+    height: 94vh;
+    background-color: #f0f2f5;
+    position: fixed;
+    margin-top: 6vh;
+}
+
+.left-items{
+    width: 18vw;
+    margin-left: 1vw;
+    margin-top: 2vh;
+    border-bottom-style: solid;
+    border-width: .1vh;
+    border-color: rgb(185, 185, 182);
+}
+
+
+.left-items li img{
+    width: 3vw;
+    height: 3vw;
+    border-radius: 50%;
+    margin-right: 1vw;
+    margin-left: 1vw;
+}
+.left-items li i{
+    font-size: 1.5vw;
+    margin-left: 1vw;
+    margin-right: 1.5vw;
+    color: rgb(87, 138, 248);
+}
+.left-items li{
+    width: 18vw;
+    height: 6vh;
+    margin-top: h;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    font-size: 1vw;
+    border-radius: 5%;
+}
+.left-items li:hover{
+    background-color: rgba(209, 206, 206, 0.925);
+}
+.leftbottom h3{
+    margin-top: 1vh;
+    margin-left: 2vw;
+}
+.leftbottomitem{
+    display: flex;
+    flex-direction: row;
+    margin-left: 2vw;
+    margin-top: 1vh;
+    align-items: center;
+}
+.leftbottomitem i{
+    margin-right: 1vw;
+    font-size: 1.5vw;
+    color: rgb(112, 113, 114);
+}
+
+
+
+.middle{
+    width: 50vw;
+    height: 700vh;
+    
+    
+    margin-top: 6vh;
+    margin-left: 26vw;
+}
+
+.story{
+    width: 90%;
+    height: 30vh;
+    display: flex;
+    flex-direction: row;
+    margin-left: 4%;
+}
+
+.storycard{
+    width: 8vw;
+    height: 25vh;
+    background: url(George\ Thomas.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    box-shadow: 0px 2px 15px rgb(54, 54, 54);
+    border-radius: 10px;
+    margin: 1vh;
+    cursor: pointer;
+    transition: transform 150ms ease-in;
+}
+.storycard:hover {
+    transform: scale(1.02);
+}
+.story h4{
+    position: absolute;
+    bottom: 3vh;
+    left: 2.5vw;
+    color: white;
+}
+
+.newpost{
+    width: 90%;
+    height: 15vh;
+    box-shadow: 0px 2px 15px rgb(100, 101, 102);
+    border-radius: 8px;
+    margin-left: 4%;
+}
+
+.newposttop{
+    width: 100%;
+    height: 7vh;
+    background-color: kaki;
+    
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    border-bottom-style: solid;
+    border-width: 1px;
+    border-color: rgb(156, 156, 158);
+}
+
+.newposttop img{
+    width: 3vw;
+    height: 3vw;
+    border-radius: 50%;
+}
+.newposttop input{
+    width: 40vw;
+    height: 4vh;
+    border-radius: 25px;
+    border: none;
+    outline: none;
+}
+
+.newpostbottom{
+    width: 100%;
+    height: 7vh;
+    align-items: center;
+
+}
+.newpostbottomlist{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 2.5vh;
+}
+
+.newpostbottomlist li{
+    
+    display: flex;
+    flex-direction: row;
+    font-size: 2vh;
+    align-items: center;
+    
+}
+.newpostbottomlist li i{
+    margin-right: 1vw;
+
+}
+
+.feedcard{
+    width: 90%;
+    height: 110vh;
+    margin-top: 5vh;
+    box-shadow: 0px 2px 15px rgb(100, 101, 102);
+    padding: 1vw;
+    border-radius: 15px;
+    margin-left: 3%;
+}
+
+
+.feedname{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+}
+
+.feedname img{
+    width: 3vw;
+    height: 3vw;
+    border-radius: 50%;
+    
+    margin-right: 1vw;
+}
+.feedname p{
+    font-size: 1.5vw;
+}
+.feedphoto img{
+    width: 95%;
+    height: 80vh;
+    
+}
+.feedphoto p{
+    font-size: 2.5vh;
+    
+}
+.feedcount{
+    width: 100%;
+    height: 5vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    border-bottom-style: solid;
+    margin-top: 1.5vh;
+}
+.likecount p{
+    font-size: 2vh;
+}
+.commentcount p{
+    font-size: 2vh;
+}
+
+.feedbutton{
+    margin-bottom: 1.5vh;
+    border-bottom-style: solid;
+}
+.feedbuttonlist{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 1.5vh;
+    margin-bottom: 1.5vh;
+    
+
+}
+.feedbuttonlist li{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    font-size: 2vh;
+}
+.feedbuttonlist li i{
+    margin-right: 1vw;
+}
+
+
+
+
+.feedcomment{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: vh;
+}
+.feedcomment img{
+    width: 3vw;
+    height: 3vw;
+    border-radius: 50%;
+    margin-right: 1vw;
+}
+.feedcomment input{
+    width: 44vw;
+    height: 5vh;
+    border-radius: 25px;
+    border: none;
+    outline: none;
+}
+
+.right{
+    width: 20vw;
+    height: 94vh;
+    position: fixed;
+    margin-top: 6vh;
+    
+    margin-left: 80vw;
+    
+}
+
+
+.right-items{
+    width: 18vw;
+    margin-left: 1vw;
+    border-bottom-style: solid;
+    border-width: .1vh;
+    border-color: rgb(185, 185, 182);
+}
+
+
+.right-items li img{
+    width: 2vw;
+    height: 2vw;
+    border-radius: 50%;
+    margin-right: 1vw;
+    margin-left: 1vw;
+}
+.right-items li i{
+    font-size: 1.5vw;
+    margin-left: 1vw;
+    margin-right: 1.5vw;
+    color: rgb(87, 138, 248);
+}
+.right-items li{
+    width: 18vw;
+    height: 6vh;
+    margin-top: h;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    font-size: 1vw;
+    border-radius: 5%;
+}
+.right-items li:hover{
+    background-color: rgba(209, 206, 206, 0.925);
+}
+.rightbottom h3{
+    margin-top: 1vh;
+    margin-left: 2vw;
+}
+.right-items h3{
+    margin-top: 1vh;
+    margin-left: 1vw;
+}
+.rightbottomitem{
+    display: flex;
+    flex-direction: row;
+    margin-left: 2vw;
+    margin-top: 1vh;
+    align-items: center;
+}
+.rightbottomitem i{
+    margin-right: 1vw;
+    font-size: 1.5vw;
+    color: rgb(112, 113, 114);
+}
